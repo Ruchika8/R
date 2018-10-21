@@ -1,0 +1,1 @@
+write.csv(Table_name ,"/home/hadoop/testing/final.csv")
