@@ -1,0 +1,5 @@
+mydb = dbConnect(MySQL(), user='username', password='password', dbname='database_name',  host='cluster-connection-name.cluster-vb9999.us-west-2.rds.amazonaws.com')
+str<-paste("select * from database_name.table_name")
+rs = dbSendQuery(mydb, str)
+#obtain results from the above query
+df_pred =fetch(rs, n=-1)
