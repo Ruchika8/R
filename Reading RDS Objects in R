@@ -1,0 +1,3 @@
+##To write a single R object to a file, and to restore it
+
+model_read<-  readRDS("/home/hadoop/model.rds")

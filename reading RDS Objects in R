@@ -1,1 +1,0 @@
-model_read<-  readRDS("/home/hadoop/model.rds")
